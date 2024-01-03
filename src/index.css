@@ -1,0 +1,78 @@
+* {
+  font-family: 'Lato', sans-serif !important;
+}
+:root {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('/fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button.btn {
+  color: #FFFFFF;
+  border: 1px solid #127C95;
+  box-shadow: none;
+  padding: 13px 45px;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.21px;
+  text-align: left;
+  text-transform: capitalize;
+}
+button.btn.outline {
+  color: #127C95;
+}
+button.btn.solid {
+  color: #FFFFFF;
+  background-color: #127C95;
+  box-shadow: none;
+}
+button.btn.solid:hover {
+  background-color: rgba(18, 124, 149, 0.9);
+}
+button.btn.outline:hover {
+  border: 1px solid #127C95;
+  background-color: rgba(18, 124, 149, 0.1);
+}
+
+button.btn:focus,
+button.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
